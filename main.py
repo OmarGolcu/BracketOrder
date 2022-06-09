@@ -1,4 +1,4 @@
-from BracketOrder import is_valid_input, bracket_order_control
+from bracket_order import is_valid_input, bracket_order_control
 
 
 
@@ -12,7 +12,7 @@ if is_valid_input(text):
     else:
         print('NO')
 else:
-    print("invalid input, input should be  in these ['{','}','(',')','[',']'] brackets" )
+    print("invalid input, input should be in these ['{','}','(',')','[',']'] brackets" )
 
 
 
