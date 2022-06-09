@@ -17,15 +17,11 @@ def bracket_order_control(text):
 
     stack = []
     for char in text:
-
         if char  in  dic.keys(): 
             stack.append(char)
-
         elif not stack:
             return False
-
         else: 
-            
             if char != dic[stack.pop()] :
                 return False
 
